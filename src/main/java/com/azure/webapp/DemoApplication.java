@@ -16,7 +16,7 @@ public class DemoApplication {
 	class HelloWorldController {
 	    @GetMapping("/hello")
 	    public String helloWorld() {
-	        return "Hello, World!";
+	        return "Happy Republic Day,Jai Hind!";
 	    }
 	}
 
