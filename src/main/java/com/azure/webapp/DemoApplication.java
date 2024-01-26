@@ -14,7 +14,7 @@ public class DemoApplication {
 	
 	@RestController
 	class HelloWorldController {
-	    @GetMapping("/hello")
+	    @GetMapping("/hrd")
 	    public String helloWorld() {
 	        return "Happy Republic Day, Jai Hind!";
 	    }
